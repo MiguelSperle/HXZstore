@@ -12,8 +12,7 @@ function Home(){
           <div className="content-text">
              <h1>Let's Build</h1>
              <p>Your Gaming computer online now !</p>
-             {/* <Link to='/Products'><button>BUY PRODUCTS</button></Link> */}
-             <button>BUY PRODUCTS</button>
+             <Link to='/Products'><button>BUY PRODUCTS</button></Link>
           </div>
         </div>
     </div>
