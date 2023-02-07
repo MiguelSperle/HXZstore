@@ -1,0 +1,28 @@
+.container-about {
+    min-height: 90vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.alert-about {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 600;
+
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        font-size: 1.8rem;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+}
+
+
+ 

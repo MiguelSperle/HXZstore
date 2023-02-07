@@ -1,0 +1,124 @@
+.container-products-all {
+    height: 90vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+    @media screen and (min-width: 1201px) {
+        height: 100vh;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        height: 100%;
+        margin-bottom: 50px;
+   }
+
+   @media screen and (min-width: 481px) and (max-width: 768px) {
+       height: 100%;
+       margin-bottom: 50px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+        height: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+.container-products-all select {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    font-size: 1.6rem;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    position: relative;
+    left: 470px;
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        left: 391px;
+      
+    }
+
+     @media screen and (min-width: 769px) and (max-width: 1024px) {
+        left: 246px;
+    }
+
+   @media screen and (min-width: 481px) and (max-width: 768px) {
+        left: 124px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+        left: 40px;
+    }
+
+
+}
+
+.container-products-all select option {
+    background-color: rgb(14, 17, 22);
+    color: rgb(255, 255, 255);
+}
+
+.container-products-all-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1140px;
+    height: 80%;
+    gap: 40px;
+
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        width: 987px;
+      
+     }
+
+     @media screen and (min-width: 769px) and (max-width: 1024px) {
+        grid-template-columns: repeat(2,1fr);
+        height: 100%;
+        width: 700px;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        height: 100%;
+        grid-template-columns: repeat(2,1fr);;
+        width: 450px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+        height: 100%;
+        grid-template-columns: repeat(1,1fr);;
+        width: 280px;
+    }
+}
+
+
+.container-products-all-grid img {
+    width: 100%;
+    transition: all 0.4s ease;
+}
+
+.container-products-all-grid img:hover {
+    filter: brightness(0.6);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+ 
+
+
+
+.container-product-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name-product, .price-product {
+    font-size: 1.3rem;
+
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        font-size: 1rem;
+        padding: 5px 0px;
+    }
+}

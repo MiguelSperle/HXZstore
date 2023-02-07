@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    color: #fff;
+    background-color: #0e1116
+}
+
+body::-webkit-scrollbar {
+    width: 7px;  
+    background-color: #161a27;             
+}
+  
+body::scrollbar-track {
+    background: black;        
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #2E3847;  
+    border-radius: 2px;       
+    border: 1px solid #cdcdff;
+}
+
+
+
+@import './components/Layout/NavBar/Nav';
+@import './components/Layout/NavBarLinks/Link';
+@import './components/Layout/Home/home';
+@import './components/Layout/ComputerHome/ComputerHome';
+@import './components/Layout/PerifericoHome/PerifericosHome';
+@import './components/Layout/SliderHome/SliderHome';
+@import './components/Layout/Footer/footer';
+@import './components/Layout/Loading/Loading';
+@import './Pages/Products/produtos';
+@import './Pages/BuyProducts/Buy';
+@import './Pages/About/about';
+@import './Pages/CartProducts/cart';
+@import './Pages/SupportClient/support';
+@import './Pages/SuccessForm/success';
+

@@ -1,0 +1,52 @@
+.container-global-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 18px;
+    padding-top: 64px;
+    height: 25vh;
+    background-color: #0a090e;
+
+    @media screen and (min-width: 1201px) {
+        height: 30vh;
+    }
+}
+
+.container-social-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.container-social-footer a {
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.container-social-footer a:hover {
+    color: gray;
+    transition: all 0.5s ease;
+}
+
+.rights{
+    color: rgb(46, 56, 71);
+    font-size: 0.9rem;
+}
+
+.author {
+    color: rgb(46, 56, 71);
+    font-size: 0.9rem;
+}
+
+.author a {
+    color: #3b60e4;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.author a:hover {
+    color: aqua;
+    transition: all 0.5s ease;
+}

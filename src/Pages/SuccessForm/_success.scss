@@ -1,0 +1,37 @@
+.container-success {
+    height: 100vh;
+    margin-top: 100px;
+    padding-top: 4rem;
+    
+    
+}
+
+.container-success-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.container-success-text h2 {
+    font-size: 2rem;
+}
+
+.container-success-text a {
+    color: #fff;
+}
+
+.container-success-text a p {
+    font-size: 1.5rem;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.container-success-text a p:hover {
+    color: cadetblue;
+    transition: all 0.5s ease;
+}
+
+
+
+

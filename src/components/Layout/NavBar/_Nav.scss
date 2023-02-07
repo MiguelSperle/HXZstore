@@ -1,0 +1,71 @@
+.container-header-all {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 9vh;
+    z-index: 1000;
+    background-color: rgb(14, 17, 22);
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        justify-content: space-between;
+        padding: 0px 20px;
+      
+     }
+    
+}
+
+
+.container-header-part1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
+.button-header {
+    background-color: rgb(14, 17, 22);
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+
+.title-header {
+    text-decoration: none;
+ 
+}
+
+.title-header h1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.container-header-look {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+.container-header-look a {
+    color: white;
+}
+
+
+.notification {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(215, 25, 32);
+    
+}
