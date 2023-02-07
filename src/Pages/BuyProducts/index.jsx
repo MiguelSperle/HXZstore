@@ -20,9 +20,9 @@ function Buy(){
             const response = await axios.get(url) // esse await ele diz, espera eu pegar a url e ai vc continua o codigo
             const products = response.data.products
             if(products.length > 0){
-              //  const selected = products.find( (product) => product.slug === slug)
-               setLoadBuyProducts(false) // loading
-               return setGetItem('o')
+              const selected = products.find( (product) => product.slug === slug)
+              setLoadBuyProducts(false) // loading
+               return setGetItem(selected)
             }
          } catch(e){
             console.log(e)
