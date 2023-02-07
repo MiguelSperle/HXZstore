@@ -33,25 +33,22 @@
     background-color: transparent;
     color: rgb(255, 255, 255);
     font-weight: 600;
-    position: relative;
-    left: 470px;
+    margin-left: 80px;
 
     @media screen and (min-width: 1025px) and (max-width: 1200px) {
-        left: 391px;
+     margin-left: 790px;;
       
-    }
+     }
 
      @media screen and (min-width: 769px) and (max-width: 1024px) {
-        left: 246px;
+        margin-left: 500px;
     }
 
    @media screen and (min-width: 481px) and (max-width: 768px) {
-        left: 124px;
+        margin-left: 245px;
     }
 
-    @media screen and (min-width: 320px) and (max-width: 480px) {
-        left: 40px;
-    }
+    
 
 
 }

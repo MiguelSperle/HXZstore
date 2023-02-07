@@ -801,27 +801,21 @@ nav ul {
   background-color: transparent;
   color: rgb(255, 255, 255);
   font-weight: 600;
-  position: relative;
-  left: 470px;
+  margin-left: 80px;
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   .container-products-all select {
-    left: 391px;
+    margin-left: 790px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .container-products-all select {
-    left: 246px;
+    margin-left: 500px;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .container-products-all select {
-    left: 124px;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  .container-products-all select {
-    left: 40px;
+    margin-left: 245px;
   }
 }
 
