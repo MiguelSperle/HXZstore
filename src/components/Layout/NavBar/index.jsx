@@ -25,7 +25,7 @@ function NavBar(){
                <Link onClick={topSiteCart}  className="title-header" to='/'><h1>HXZ</h1></Link>
            </div>
                 <div className="container-header-look">
-                   
+                   {/* {products.length > 0 && <p className="notification"></p>} */}
                    <Link onClick={topSiteCart} to='/Cart'><IconCart/></Link>
                    <Link onClick={topSiteCart} to='/Support'><IconProfile/></Link>
                </div>
