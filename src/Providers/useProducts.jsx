@@ -36,7 +36,6 @@ export const ProductsProvider = ({ children }) => {
       ...itemExists,
       amountBuy: itemExists.amountBuy + 1,
     }
-
     setProducts(products.map((item) => {
       if (item.id === id) {
         return newItem
@@ -46,7 +45,6 @@ export const ProductsProvider = ({ children }) => {
           ...item
         }
       }
-
     }))
 
   }
@@ -73,7 +71,6 @@ export const ProductsProvider = ({ children }) => {
           ...item
         }
       }
-
     }))
 
   }
@@ -81,19 +78,14 @@ export const ProductsProvider = ({ children }) => {
 
   function RemoveProductsCart(idProduct) {
     const Restantes = products.filter((product) => product.id !== idProduct)
-
     if (RemoveProductsCart) {
       setProducts(Restantes)
     }
   }
-
-
-
   return (
     <ProductsContext.Provider value={{ addCart, products, setProducts, RemoveProductsCart, addAmountItem, removeAmountItem }}>
       {children}
     </ProductsContext.Provider>
   );
 }
-
 export const useProducts = () => React.useContext(ProductsContext);
