@@ -4,7 +4,7 @@ import useLocalStorage from "use-local-storage"; // lib de local storage( salvar
 export const ProductsContext = React.createContext();
 export const ProductsProvider = ({ children }) => {
   
-  const [products, setProducts] = useLocalStorage("products", []);
+  const [products, setProducts] = useState([]);
 
 
 
