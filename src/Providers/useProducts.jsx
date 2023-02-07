@@ -4,7 +4,9 @@ import useLocalStorage from "use-local-storage"; // lib de local storage( salvar
 export const ProductsContext = React.createContext();
 export const ProductsProvider = ({ children }) => {
   
-  const [products, setProducts] = useLocalStorage("products", "");
+  const [products, setProducts] = useLocalStorage("products", []);
+
+
 
 function addCart({
       id,
@@ -13,11 +15,12 @@ function addCart({
       image,
       amountBuy
     }){
-      const verificationExists = products.find( (product) => product.id === id)
-      if(verificationExists){
-        return alert('item adicionado já no seu carrinho.')
-      }
-      setProducts([...products ,{ id, name, price, image, amountBuy}])
+        const verificationExists = products.find( (product) => product.id === id)
+        if(verificationExists){
+          return alert('item adicionado já no seu carrinho.')
+        }
+        setProducts([...products ,{ id, name, price, image, amountBuy}])
+       
     }
 
 function addAmountItem({
