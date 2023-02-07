@@ -104,6 +104,11 @@ body::-webkit-scrollbar-thumb {
   opacity: 0;
   border-bottom: 1px solid white;
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .container-links {
+    top: 72px;
+  }
+}
 
 .container-links.off {
   left: 0;
@@ -745,19 +750,10 @@ nav ul {
   border-top-color: #fff; /* Cor do loader */
   box-sizing: border-box;
   background: transparent;
-  -webkit-animation: loading 1s linear infinite;
-          animation: loading 1s linear infinite;
+  animation: loading 1s linear infinite;
 }
 
 /* Adicionar no index.css */
-@-webkit-keyframes loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 @keyframes loading {
   0% {
     transform: rotate(0deg);

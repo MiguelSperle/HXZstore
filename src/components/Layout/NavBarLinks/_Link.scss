@@ -18,6 +18,10 @@
  opacity: 0;
  border-bottom: 1px solid white;
 
+ @media screen and (min-width: 320px) and (max-width: 480px) {
+    top: 72px;
+ }
+
 
 }
 
