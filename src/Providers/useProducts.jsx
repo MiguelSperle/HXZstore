@@ -15,7 +15,7 @@ function addCart({
       image,
       amountBuy
     }){
-        const verificationExists = products.find( (product) => product.id === id)
+        const verificationExists = products.find((product) => product.id === id)
         if(verificationExists){
           return alert('item adicionado já no seu carrinho.')
         }
