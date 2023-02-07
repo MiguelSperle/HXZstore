@@ -1,10 +1,8 @@
 // contextAPI
 import React, { useState, useEffect } from 'react';
-import useLocalStorage from "use-local-storage"; // lib de local storage( salvar no navegador quando algo é adicionado)
-
 export const ProductsContext = React.createContext();
-
 export const ProductsProvider = ({ children }) => {
+
   const productsLocalStorage = JSON.parse(localStorage.getItem('products') || '[]')
 
   const [products, setProducts] = useState(productsLocalStorage);
