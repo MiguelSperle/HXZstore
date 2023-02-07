@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 export const ProductsContext = React.createContext();
 export const ProductsProvider = ({ children }) => {
 
+  // da linha 6 a linha 13 é salvando os itens em um localStorage só que sem usar lib dessa vez.
   const productsLocalStorage = JSON.parse(localStorage.getItem('products') || '[]')
 
   const [products, setProducts] = useState(productsLocalStorage);
