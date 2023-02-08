@@ -144,6 +144,7 @@
 .content-text button  {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
     border: none;
     padding: 1rem;
@@ -175,10 +176,6 @@
 
 .content-text a {
     text-decoration: none;
-    
-    @media screen and (min-width: 1201px) {
-        width: 28%;
-    }
 }
 
 .content-text a button {
