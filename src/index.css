@@ -307,6 +307,11 @@ nav ul {
   height: 57px;
   transition: all 0.5s ease;
 }
+@media screen and (min-width: 1201px) {
+  .content-text button {
+    width: 200px;
+  }
+}
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   .content-text button {
     width: 230px;
@@ -331,6 +336,11 @@ nav ul {
   color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 1.3rem;
+}
+@media screen and (min-width: 1201px) {
+  .content-text a button {
+    font-size: 1rem;
+  }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   .content-text a button {
