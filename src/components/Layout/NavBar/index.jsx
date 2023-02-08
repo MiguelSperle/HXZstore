@@ -6,15 +6,11 @@ import { useState } from "react";
 import { Link } from 'react-router-dom';
 import NavLinks from "../NavBarLinks/index";
 import { useProducts } from "../../../Providers/useProducts";
+import {  clickTopUp } from "../../../utils";
 
 function NavBar(){
     const [open, setOpen] = useState(false)
     const { products } = useProducts();
-
-    function topSiteCart(){
-        window.scrollTo(0, 0)
-    }
-
 
     return (
         <>
@@ -23,12 +19,12 @@ function NavBar(){
            <button onClick={() => setOpen(!open)} className="button-header">
             {open === false ? <IconNavBar /> : <IconClose/> }
             </button>
-               <Link onClick={topSiteCart}  className="title-header" to='/'><h1>HXZ</h1></Link>
+               <Link onClick={clickTopUp}  className="title-header" to='/'><h1>HXZ</h1></Link>
            </div>
                 <div className="container-header-look">
                    {products.length > 0 && <p className="notification"></p>}
-                   <Link onClick={topSiteCart} to='/Cart'><IconCart/></Link>
-                   <Link onClick={topSiteCart} to='/Support'><IconProfile/></Link>
+                   <Link onClick={clickTopUp} to='/Cart'><IconCart/></Link>
+                   <Link onClick={clickTopUp} to='/Support'><IconProfile/></Link>
                </div>
         </div>
          {<NavLinks setOpen={setOpen} open={open}/>}
