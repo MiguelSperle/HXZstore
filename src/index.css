@@ -331,6 +331,11 @@ nav ul {
 .content-text a {
   text-decoration: none;
 }
+@media screen and (min-width: 1201px) {
+  .content-text a {
+    width: 28%;
+  }
+}
 
 .content-text a button {
   color: rgb(255, 255, 255);

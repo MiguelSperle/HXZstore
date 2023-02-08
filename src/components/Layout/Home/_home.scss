@@ -175,6 +175,10 @@
 
 .content-text a {
     text-decoration: none;
+    
+    @media screen and (min-width: 1201px) {
+        width: 28%;
+    }
 }
 
 .content-text a button {
