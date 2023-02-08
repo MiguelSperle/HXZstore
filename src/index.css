@@ -310,7 +310,7 @@ nav ul {
 }
 @media screen and (min-width: 1201px) {
   .content-text button {
-    width: 200px;
+    width: 250px;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -340,7 +340,7 @@ nav ul {
 }
 @media screen and (min-width: 1201px) {
   .content-text a button {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
