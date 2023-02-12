@@ -7,7 +7,8 @@
     
 
     @media screen and (min-width: 769px) and (max-width: 1024px) {
-        height: 100vh;
+        min-height: 100vh;
+        height: 100%;
         justify-content: start;
     }
 

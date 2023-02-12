@@ -89,17 +89,17 @@ body::-webkit-scrollbar-thumb {
 
 .container-links {
   position: fixed;
-  top: 75px;
+  top: 49px;
   left: -100vw;
   z-index: 999;
   transition: 0.7s all cubic-bezier(0.67, 0.01, 0.1, 0.97);
-  height: 18vh;
+  min-height: 18vh;
   width: 100vw;
   background-color: rgb(14, 17, 22);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 60px;
   text-align: left;
   opacity: 0;
   border-bottom: 1px solid white;
@@ -107,7 +107,6 @@ body::-webkit-scrollbar-thumb {
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .container-links {
     top: 60px;
-    height: 22vh;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -379,7 +378,8 @@ nav ul {
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .section-computer-home {
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     justify-content: start;
   }
 }
@@ -490,7 +490,8 @@ nav ul {
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .section-peripherals-home {
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     justify-content: start;
     margin-top: 0px;
   }
