@@ -2,7 +2,7 @@
 
 # English
 
-This is my second e-commerce project but it is my project most complete of e-commerce. I used a mirageJS a lib that mimics an api but I was able to train my knowledge on how to consume an API in this project.
+This is my fisrt e-commerce project but it is my project most complete of e-commerce. I used a mirageJS a lib that mimics an api but I was able to train my knowledge on how to consume an API in this project.
 
 # Portuguese
 
