@@ -13,7 +13,6 @@ Esse é o meu segundo projeto e-commerce mas é o projeto mais completo que eu t
     <li>React JS</li>
     <li>Mirage JS</li>
     <li>Sass</li>
-    <li>Flex Box and Grid</li>
   </ul>
 
 <h2>Screenshots</h2>
