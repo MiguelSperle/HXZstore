@@ -16,6 +16,14 @@ Esse é o meu segundo projeto e-commerce mas é o projeto mais completo que eu t
     <li>Flex Box and Grid</li>
   </ul>
 
-<a href='https://hxz-store-fawn.vercel.app/'>Click Here</a>
+<h2>Screenshots</h2>
+<div width="100%" align="center">
+<img src="https://i.imgur.com/VcrhmDV.png"/>
+<img src="https://i.imgur.com/N0TyMG3.png" />
+<img src="https://i.imgur.com/nR6vdaY.png" />
+<img src="https://i.imgur.com/nMhVWJx.png" />
+<img src="https://i.imgur.com/QpTYFEY.png" />
+<img src="https://i.imgur.com/VGN1q2v.png" />
+</div>
 
 
