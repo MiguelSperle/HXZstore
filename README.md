@@ -2,11 +2,11 @@
 
 # English
 
-This is my fisrt e-commerce project but it is my project most complete of e-commerce. I used a mirageJS a lib that mimics an api but I was able to train my knowledge on how to consume an API in this project.
+This project is an e-commerce. I used mirageJS, a lib that mimics an api, I was able to train my knowledge on how to consume an API in this project.
 
 # Portuguese
 
-Esse é o meu segundo projeto e-commerce mas é o projeto mais completo que eu tenho de e-commerce. Eu usei o mirageJS, uma bibilioteca que imita uma API, Pude treinar meu conhecimento sobre como consumir uma API neste projeto.
+Este projeto, é um e-commerce. Usei o mirageJS, uma lib que imita uma api, eu pude treinar meu conhecimento em como consumir uma API neste projeto.
 
 <h2>Build process</h2>
   <ul>
